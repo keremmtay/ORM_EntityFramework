@@ -1,0 +1,9 @@
+﻿- CodeFirst ile proje geliştirmeye başlamadan önce projeye EntityFramework'ü dahil etmemiz gerekiyor.
+
+- Entity classlarımızı oluşturmamız gerekiyor.
+
+- Context sınıfımızı oluşturmamız gerekiyor.
+
+- connectionString'i oluşturmamız gerekiyor.
+
+- Migration işlemleri ile Veritabanında tabloları oluşturabiliyoruz.

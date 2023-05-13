@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="00d792d0be664652a141c932625d35ee" Name="Diagram1">
+        <EntityTypeShape EntityType="Northwnd13ModelContext.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Northwnd13ModelContext.Category" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Northwnd13ModelContext.Employee" Width="1.5" PointX="10.625" PointY="0.75" />
+        <EntityTypeShape EntityType="Northwnd13ModelContext.Order_Detail" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Northwnd13ModelContext.Order" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Northwnd13ModelContext.Product" Width="1.5" PointX="8.625" PointY="0.75" />
+        <AssociationConnector Association="Northwnd13ModelContext.FK_Products_Categories" />
+        <AssociationConnector Association="Northwnd13ModelContext.FK_Orders_Customers" />
+        <AssociationConnector Association="Northwnd13ModelContext.FK_Employees_Employees" />
+        <AssociationConnector Association="Northwnd13ModelContext.FK_Orders_Employees" />
+        <AssociationConnector Association="Northwnd13ModelContext.FK_Order_Details_Orders" />
+        <AssociationConnector Association="Northwnd13ModelContext.FK_Order_Details_Products" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
